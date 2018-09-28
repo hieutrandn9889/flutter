@@ -1,4 +1,4 @@
-#Sun Sep 23 14:40:44 ICT 2018
-base.0=/Users/hieutran/Desktop/project_flutter_myapp/build/app/intermediates/transforms/dexMerger/debug/0
+#Fri Sep 28 11:55:35 ICT 2018
+base.0=/Users/hieutran/Desktop/project_flutter_myapp/flutter/build/app/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex
