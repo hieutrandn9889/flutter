@@ -1,61 +1,84 @@
 import 'package:flutter/material.dart';
-import 'package:english_words/english_words.dart';
 
-void main() => runApp(MyApp());
+void main() {
+  runApp(new MyApp());
+}
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Startup Name Generator',
-      home: RandomWords(),
+    return new MaterialApp(
+      title: "My App",
+      home: new HomePage(),
+      theme: new ThemeData(
+        primarySwatch: Colors.green,
+        brightness: Brightness.light,
+        accentColor: Colors.red
+      ),
     );
   }
 }
 
-class RandomWordsState extends State<RandomWords> {
-  final _suggestions = <WordPair>[];
+class HomePage extends StatefulWidget {
+  @override
+  _HomePageState createState() => new _HomePageState();
+}
 
-  final _biggerFont = const TextStyle(fontSize: 18.0);
+class _HomePageState extends State<HomePage> {
+  String myText = "Hello World";
 
-  Widget _buildSuggestions() {
-    return ListView.builder(
-        padding: const EdgeInsets.all(16.0),
-        itemBuilder: (context, i) {
-          // add 1 cot
-          if (i.isOdd) return Divider();
-          // i ~/ 2 : example: 1, 2, 3, 4, 5 becomes 0, 1, 1, 2, 2.
-          final index = i ~/ 2;
-          if (index >= _suggestions.length) {
-            // lấy hết phần cuối available word 
-            _suggestions.addAll(generateWordPairs().take(10));
-            // show ra 10 cái và hơn
-          }
-          return _buildRow(_suggestions[index]);
-        });
+  void _changeText() {
+    setState(() {
+      if (myText.startsWith("H")) {
+        myText = "Welcome to my app";
+      } else {
+        myText = "Hello World";
+      }
+    });
   }
 
-  Widget _buildRow(WordPair pair) {
-    return ListTile(
-      title: Text(
-        pair.asPascalCase,
-        style: _biggerFont,
+  Widget _bodyWidget() {
+    return new Container(
+      padding: const EdgeInsets.all(8.0),
+      child: new Center(
+        child: new Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            new Text(
+              myText,
+              style: new TextStyle(
+                color: Colors.green,
+                fontSize: 30.0,
+              ),
+            ),
+            // tao 1 button "click" mau trang
+            // new RaisedButton(
+            //   child: new Text(
+            //     "Click",
+            //     style: new TextStyle(
+            //       color: Colors.white,
+            //       fontSize: 20.0,
+            //     ),
+            //   ),
+            // )
+          ],
+        ),
       ),
     );
   }
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Startup Name Generator'),
+    return new Scaffold(
+      appBar: new AppBar(
+        title: new Text("Home Page"),
       ),
-      body: _buildSuggestions(),
+      body: _bodyWidget(),
+      // tạo icon plus
+      floatingActionButton: new FloatingActionButton(
+        child: new Icon(Icons.add),
+        onPressed: _changeText,
+      ),
     );
   }
-}
-
-class RandomWords extends StatefulWidget {
-  @override
-  RandomWordsState createState() => new RandomWordsState();
 }
