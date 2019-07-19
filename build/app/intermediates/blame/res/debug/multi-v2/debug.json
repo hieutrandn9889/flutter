@@ -1,11 +1,19 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/hieu/Desktop/flutter_code/build/app/intermediates/res/merged/debug/values_values.arsc.flat",
+            "outputFile": "D:\\Flutter\\project_fultter\\flutter\\build\\app\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/hieu/Desktop/flutter_code/android/app/src/main/res/values/styles.xml",
+                    "source": "D:\\Flutter\\project_fultter\\flutter\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "353"
+                    },
+                    "to": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
