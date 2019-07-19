@@ -93,10 +93,9 @@ class _MyHomePageState extends State<MyHomePage> {
                   padding: const EdgeInsets.all(9.0),
                   textColor: Colors.white,
                   color: Colors.blue,
-                  // onPressed: () {
-                  //   _showDialog();
-                  // },
-                  onPressed: _incrementCounter,
+                  onPressed: () {
+                    _showDialog();
+                  },
                   child: new Text("ADD"),
                 ),
                 

@@ -1,4 +1,4 @@
-#Fri Jul 19 11:19:08 ICT 2019
+#Fri Jul 19 17:26:07 ICT 2019
 base.0=/Users/hieu/Desktop/flutter_code/build/app/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex
