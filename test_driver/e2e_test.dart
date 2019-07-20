@@ -3,14 +3,14 @@ import 'package:test/test.dart';
 
 void main() {
   group('Counter App', () {
-    final counterTextFinder = find.byValueKey('counterText'); //key: ValueKey("counterText"),
-    final buttonFinder      = find.byTooltip('increment');// get ben main file   tooltip: 'increment',
-    final buttonAdd         = find.byValueKey('add');
-    final buttonSubtract    = find.byValueKey('subtract');
-    final alertText         = find.byValueKey('alert_text');
-    final btnClose          = find.byValueKey('close_button');
-
-
+    final counterTextFinder =
+        find.byValueKey('counterText'); //key: ValueKey("counterText"),
+    final buttonFinder = find
+        .byTooltip('increment'); // get ben main file   tooltip: 'increment',
+    final buttonAdd = find.byValueKey('add');
+    final buttonSubtract = find.byValueKey('subtract');
+    final alertText = find.byValueKey('alert_text');
+    final btnClose = find.byValueKey('close_button');
 
     FlutterDriver driver;
     setUpAll(() async {
@@ -35,7 +35,7 @@ void main() {
     test('Test with alert window', () async {
       await driver.tap(buttonAdd);
       expect(await driver.getText(alertText), "Welcome to ExecuteAutomation 2");
-     await driver.tap(btnClose);
+      await driver.tap(btnClose);
       await driver.tap(buttonSubtract);
       expect(await driver.getText(counterTextFinder), "1");
     });
