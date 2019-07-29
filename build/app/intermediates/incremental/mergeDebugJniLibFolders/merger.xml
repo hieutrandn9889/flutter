@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/hieu/Desktop/flutter_code/android/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/hieu/Desktop/flutter_code/android/app/src/debug/jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="D:\Flutter\project_fultter\flutter\android\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="D:\Flutter\project_fultter\flutter\android\app\src\debug\jniLibs"/></dataSet></merger>
