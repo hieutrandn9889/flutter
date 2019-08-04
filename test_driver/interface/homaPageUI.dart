@@ -7,5 +7,4 @@ class HomePageUI {
   final btnSubtract   = find.byValueKey("subtract");
   final txtAlert      = find.byValueKey("alert_text");
   final btnClose      = find.byValueKey("close_button");
-  
 }

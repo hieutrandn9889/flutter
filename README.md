@@ -1,8 +1,2 @@
 # project_flutter_myapp
-
-A new Flutter project.
-
-## Getting Started
-
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+flutter drive --target=test_driver/bdd.dartflutter drive --targ
