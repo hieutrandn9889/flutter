@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="D:\Flutter\project_fultter\flutter\android\app\src\main\assets"/><source path="D:\Flutter\project_fultter\flutter\build\app\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="D:\Flutter\project_fultter\flutter\android\app\src\debug\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/hieu/Desktop/flutter_learning_auto_code/android/app/src/main/assets"/><source path="/Users/hieu/Desktop/flutter_learning_auto_code/build/app/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/hieu/Desktop/flutter_learning_auto_code/android/app/src/debug/assets"/></dataSet></merger>

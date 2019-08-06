@@ -1,19 +1,11 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Flutter\\project_fultter\\flutter\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "/Users/hieu/Desktop/flutter_learning_auto_code/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
-                    "source": "D:\\Flutter\\project_fultter\\flutter\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "/Users/hieu/Desktop/flutter_learning_auto_code/android/app/src/main/res/values/styles.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "353"
-                    },
-                    "to": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
