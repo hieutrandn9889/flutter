@@ -29,10 +29,26 @@ class RandomWords extends StatefulWidget {
 }
 
 class RandomWordsState extends State<RandomWords>{
+  final _words = <WordPair>[]; // khai bao mang
+
   @override
   Widget build(BuildContext context){
-    final wordPair = WordPair.random();
-    return Text(wordPair.asUpperCase);
+    // final wordPair = WordPair.random();
+    // return Text(wordPair.asUpperCase);
+    return ListView.builder(itemBuilder: (context, index){
+      if(index >= _words.length){
+        _words.addAll(generateWordPairs().take(10)); // index lon hon mang thi lay 10 elements >> load 10 elements
+      }
+      return _buildRow(_words[index]);
+    });
   }
 }
-
+ 
+Widget _buildRow (WordPair wordPair){
+  return ListTile(
+    title: Text(
+      wordPair.asPascalCase,
+      style: const TextStyle(fontSize:18.0)
+    ),
+  );
+}

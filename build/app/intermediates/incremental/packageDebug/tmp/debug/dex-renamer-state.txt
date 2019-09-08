@@ -1,4 +1,4 @@
-#Thu Aug 08 11:21:13 ICT 2019
-base.0=/Users/hieu/Desktop/flutter_learning_auto_code/build/app/intermediates/transforms/dexMerger/debug/0
+#Sun Sep 08 23:20:11 ICT 2019
+base.0=D\:\\Flutter\\project_fultter\\flutter\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex
