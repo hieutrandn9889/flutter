@@ -21,7 +21,7 @@ dependencies:
   cupertino_icons: ^0.1.2
   english_words: ^3.1.5 # 3.15 or hon (3.16...)
   font_awesome_flutter: 8.4.0
-  flutter_gherkin: 1.0.5
+  flutter_gherkin: 1.0.9
 
 dev_dependencies:
   flutter_driver:
@@ -41,8 +41,8 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/1.jpg
-
+    # - assets/1.jpg
+      - imgs/1.png
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.
 

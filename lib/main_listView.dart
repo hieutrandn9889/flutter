@@ -53,18 +53,14 @@ class RandomWordsState extends State<RandomWords> {
   }
 
   Widget _buildRow(WordPair wordPair) {
-    final bool _alreadySaved = _saved.contains(
-        wordPair); // if list chua wordpair >> truyen vao _alreadySaved
+    final bool _alreadySaved = _saved.contains(wordPair); // if list chua wordpair >> truyen vao _alreadySaved
     return ListTile(
       title: Text(
         wordPair.asPascalCase,
         style: _biggerFont,
       ),
       trailing: new Icon(
-        _alreadySaved
-            ? Icons.favorite
-            : Icons
-                .favorite_border, // neu da co thi trai tim do nguoc lai mau xam
+        _alreadySaved ? Icons.favorite: Icons.favorite_border, // neu da co thi trai tim do nguoc lai mau xam
         color: _alreadySaved ? Colors.red : null,
       ),
       onTap: () {
