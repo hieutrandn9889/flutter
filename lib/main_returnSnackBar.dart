@@ -1,0 +1,46 @@
+import 'package:flutter/material.dart';
+//Define "root widget"
+void main() => runApp(new MyApp());//one-line function
+
+class MyApp extends StatelessWidget {
+  final GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey<ScaffoldState>();
+  _showSnackBar() {
+    // test log _showSnackBar button 
+    print("Show Snackbar here !");
+    final snackBar = new SnackBar(
+        // thông tin hiển thị
+        content: new Text("This is a SnackBar"),
+        duration: new Duration(seconds: 3),
+        backgroundColor: Colors.red,
+        // OK button 
+        action: new SnackBarAction(
+          label: 'OK', 
+          onPressed: (){
+            print('press OK on SnackBar');
+          },
+        ),
+    );
+    //How to display Snackbar ?
+    // gọi snackBar từ scaffold lấy từ scaffoldKey
+    _scaffoldKey.currentState.showSnackBar(snackBar);
+  }
+  @override
+  Widget build(BuildContext context) {
+    //build function returns a "Widget"
+    return new MaterialApp(
+      title: "SnackBar example",
+      home: new Scaffold(
+        key: _scaffoldKey,
+        appBar: new AppBar(
+          title: new Text("An example of SnackBar"),
+          actions: <Widget>[
+            new IconButton(
+                icon: new Icon(Icons.info),
+                onPressed: _showSnackBar
+              )
+          ],
+        ),
+      )
+    );
+  }
+}
