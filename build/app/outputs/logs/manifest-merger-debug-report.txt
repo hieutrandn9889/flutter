@@ -4,6 +4,8 @@ ADDED from D:\Flutter\project_fultter\flutter\android\app\src\main\AndroidManife
 INJECTED from D:\Flutter\project_fultter\flutter\android\app\src\main\AndroidManifest.xml:1:1-39:12
 INJECTED from D:\Flutter\project_fultter\flutter\android\app\src\main\AndroidManifest.xml:1:1-39:12
 INJECTED from D:\Flutter\project_fultter\flutter\android\app\src\main\AndroidManifest.xml:1:1-39:12
+MERGED from [:sqflite] D:\Flutter\project_fultter\flutter\build\sqflite\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider] D:\Flutter\project_fultter\flutter\build\path_provider\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-7:12
 INJECTED from D:\Flutter\project_fultter\flutter\android\app\src\main\AndroidManifest.xml:1:1-39:12
 INJECTED from D:\Flutter\project_fultter\flutter\android\app\src\main\AndroidManifest.xml:1:1-39:12
 INJECTED from D:\Flutter\project_fultter\flutter\android\app\src\main\AndroidManifest.xml:1:1-39:12
@@ -67,6 +69,10 @@ uses-sdk
 INJECTED from D:\Flutter\project_fultter\flutter\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Flutter\project_fultter\flutter\android\app\src\main\AndroidManifest.xml
 INJECTED from D:\Flutter\project_fultter\flutter\android\app\src\main\AndroidManifest.xml
+MERGED from [:sqflite] D:\Flutter\project_fultter\flutter\build\sqflite\intermediates\manifests\full\debug\AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] D:\Flutter\project_fultter\flutter\build\sqflite\intermediates\manifests\full\debug\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] D:\Flutter\project_fultter\flutter\build\path_provider\intermediates\manifests\full\debug\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] D:\Flutter\project_fultter\flutter\build\path_provider\intermediates\manifests\full\debug\AndroidManifest.xml:5:5-44
 INJECTED from D:\Flutter\project_fultter\flutter\android\app\src\main\AndroidManifest.xml
 INJECTED from D:\Flutter\project_fultter\flutter\android\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
