@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
+import 'listViewExample.dart';
 
 void main() => runApp(new MyApp()); // one line function
-class MyApp extends StatefulWidget{
+class MyApp extends StatelessWidget{
   @override
   Widget build(BuildContext context){
     final materialApp = new MaterialApp(
       title: '',
-      home: new Text("List with image and Text"),
+      home: new ListViewExample(),
     );
     return materialApp;
   }
