@@ -7,6 +7,9 @@ flutter clean
 
 flutter packages pub cache clean
 
+## check version and doctor
+flutter --version
+flutter doctor
 
 ## Getting Started
 
