@@ -24,7 +24,7 @@ dependencies:
   flutter_gherkin: ^1.1.7+5
   transparent_image: ^1.0.0
   cached_network_image: ^1.1.1
-
+  flutter_keyboard_visibility: ^0.7.0
 dev_dependencies:
   flutter_driver:
     sdk: flutter
