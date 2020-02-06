@@ -1,0 +1,6 @@
+2020-02-06 16:41:11.603946 >>> {command: get_health}
+2020-02-06 16:41:11.631277 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2020-02-06 16:41:11.677640 >>> {command: tap, finderType: ByTooltipMessage, text: Increment}
+2020-02-06 16:41:11.811344 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-02-06 16:41:11.818482 >>> {command: get_text, finderType: ByValueKey, keyValueString: counterText, keyValueType: String}
+2020-02-06 16:41:12.198400 <<< {isError: false, response: {text: 1}, type: _extensionType, method: ext.flutter.driver}

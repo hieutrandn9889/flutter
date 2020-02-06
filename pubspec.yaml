@@ -21,7 +21,7 @@ dependencies:
   cupertino_icons: ^0.1.2
   english_words: ^3.1.5 # 3.15 or hon (3.16...)
   font_awesome_flutter: ^8.5.0
-  flutter_gherkin: ^1.1.7+5
+  flutter_gherkin: ^1.1.8-rc.1
   transparent_image: ^1.0.0
   cached_network_image: ^1.1.1
   flutter_keyboard_visibility: ^0.7.0
