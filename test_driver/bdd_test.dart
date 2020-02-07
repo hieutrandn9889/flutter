@@ -2,10 +2,7 @@ import 'dart:async';
 import 'package:flutter_gherkin/flutter_gherkin.dart';
 import 'package:gherkin/gherkin.dart';
 import 'package:glob/glob.dart';
-import 'steps/initial_state_of_app.dart';
-import 'steps/I_click_plus_step.dart';
-import 'steps/I_see_value_step.dart';
-import 'steps/I_click_subtract.dart';
+import 'steps/homePageSteps.dart';
 import 'hooks/hook.dart';
 Future<void> main() {
   final config = FlutterTestConfiguration()

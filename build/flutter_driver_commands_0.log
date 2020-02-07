@@ -46,3 +46,35 @@
 2020-02-07 10:45:02.166250 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
 2020-02-07 10:45:02.184609 >>> {command: get_text, finderType: ByValueKey, keyValueString: counterText, keyValueType: String}
 2020-02-07 10:45:02.555260 <<< {isError: false, response: {text: 1}, type: _extensionType, method: ext.flutter.driver}
+2020-02-07 10:47:44.748919 >>> {command: get_health}
+2020-02-07 10:47:44.831969 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2020-02-07 10:47:44.871630 >>> {command: tap, finderType: ByTooltipMessage, text: Increment}
+2020-02-07 10:47:45.010799 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-02-07 10:47:45.018986 >>> {command: get_text, finderType: ByValueKey, keyValueString: counterText, keyValueType: String}
+2020-02-07 10:47:45.378788 <<< {isError: false, response: {text: 1}, type: _extensionType, method: ext.flutter.driver}
+2020-02-07 10:59:02.463676 >>> {command: get_health}
+2020-02-07 10:59:02.507872 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2020-02-07 10:59:02.657650 >>> {command: tap, finderType: ByTooltipMessage, text: Increment}
+2020-02-07 10:59:02.925540 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-02-07 10:59:02.928019 >>> {command: tap, finderType: ByValueKey, keyValueString: subtract, keyValueType: String}
+2020-02-07 10:59:03.345398 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-02-07 10:59:03.351888 >>> {command: get_text, finderType: ByValueKey, keyValueString: counterText, keyValueType: String}
+2020-02-07 10:59:03.809203 <<< {isError: false, response: {text: 0}, type: _extensionType, method: ext.flutter.driver}
+2020-02-07 11:02:04.304899 >>> {command: get_health}
+2020-02-07 11:02:04.422471 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2020-02-07 11:02:04.529167 >>> {command: tap, finderType: ByTooltipMessage, text: Increment}
+2020-02-07 11:02:05.063066 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-02-07 11:02:05.072845 >>> {command: get_text, finderType: ByValueKey, keyValueString: counterText, keyValueType: String}
+2020-02-07 11:02:05.667647 <<< {isError: false, response: {text: 1}, type: _extensionType, method: ext.flutter.driver}
+2020-02-07 11:05:26.413363 >>> {command: get_health}
+2020-02-07 11:05:26.505034 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2020-02-07 11:05:26.634898 >>> {command: tap, finderType: ByTooltipMessage, text: Increment}
+2020-02-07 11:05:26.778288 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-02-07 11:05:26.804209 >>> {command: get_text, finderType: ByValueKey, keyValueString: counterText, keyValueType: String}
+2020-02-07 11:05:27.042991 <<< {isError: false, response: {text: 1}, type: _extensionType, method: ext.flutter.driver}
+2020-02-07 11:10:50.138020 >>> {command: get_health}
+2020-02-07 11:10:50.173490 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2020-02-07 11:10:50.239121 >>> {command: tap, finderType: ByTooltipMessage, text: Increment}
+2020-02-07 11:10:50.526005 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-02-07 11:10:50.535651 >>> {command: get_text, finderType: ByValueKey, keyValueString: counterText, keyValueType: String}
+2020-02-07 11:10:50.877860 <<< {isError: false, response: {text: 1}, type: _extensionType, method: ext.flutter.driver}
