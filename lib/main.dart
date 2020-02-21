@@ -87,7 +87,7 @@ class _MyHomePageState extends State<MyHomePage> {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
                 new RaisedButton(
-                  key: Key("add"),
+                  key: Key("addBtn"),
                   padding: const EdgeInsets.all(8.0),
                   textColor: Colors.white,
                   color: Colors.blue,
@@ -97,7 +97,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: new Text("Add"),
                 ),
                 new RaisedButton(
-                  key: Key("subtract"),
+                  key: Key("subtractBtn"),
                   onPressed: _decrementCounter,
                   textColor: Colors.white,
                   color: Colors.red,

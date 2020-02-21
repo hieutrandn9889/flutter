@@ -144,3 +144,9 @@
 2020-02-21 14:44:07.225245 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
 2020-02-21 14:44:07.245112 >>> {command: get_text, finderType: ByValueKey, keyValueString: counterText, keyValueType: String}
 2020-02-21 14:44:07.474162 <<< {isError: false, response: {text: 1}, type: _extensionType, method: ext.flutter.driver}
+2020-02-21 15:14:08.589482 >>> {command: get_health}
+2020-02-21 15:14:08.622440 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2020-02-21 15:14:08.659561 >>> {command: tap, finderType: ByTooltipMessage, text: Increment}
+2020-02-21 15:14:08.801180 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-02-21 15:14:08.818365 >>> {command: get_text, finderType: ByValueKey, keyValueString: counterText, keyValueType: String}
+2020-02-21 15:14:09.244059 <<< {isError: false, response: {text: 1}, type: _extensionType, method: ext.flutter.driver}
