@@ -15,10 +15,9 @@ Future<void> main() {
     ..hooks = [
       HookExample(),
     ]// you can include "AttachScreenhotOnFailedStepHook()" to take a screenshot of each step failure and attach it to the world object
-    ..stepDefinitions = [
-      InitialStateOfApp(), 
+    ..stepDefinitions = [ 
       ClickPlus(), 
-      ISeeValue(), 
+      VerifyNumberDisplay(), 
       ClickSubtract()
     ]
     ..restartAppBetweenScenarios = true

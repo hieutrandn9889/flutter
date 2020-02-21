@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.amber,
       ),
-      home: MyHomePage(title: 'ExecuteAutomation Home Page'),
+      home: MyHomePage(title: 'HieuTran Home Page'),
     );
   }
 }

@@ -1,6 +1,6 @@
 import 'package:flutter_gherkin/flutter_gherkin.dart';
 import 'package:gherkin/gherkin.dart';
-import '../pages/home_page.dart';
+import '../pages/homePage.dart';
 
 class ClickPlus extends AndWithWorld<FlutterWorld> {
   ClickPlus()
@@ -30,8 +30,8 @@ class ClickSubtract extends AndWithWorld<FlutterWorld> {
   RegExp get pattern => RegExp(r"I click subtract button");
 }
 
-class ISeeValue extends Then1WithWorld<String, FlutterWorld> {
-  ISeeValue()
+class VerifyNumberDisplay extends Then1WithWorld<String, FlutterWorld> {
+  VerifyNumberDisplay()
       : super(StepDefinitionConfiguration()..timeout = Duration(seconds: 10));
 
   @override
@@ -41,7 +41,7 @@ class ISeeValue extends Then1WithWorld<String, FlutterWorld> {
   }
 
   @override
-  RegExp get pattern => RegExp(r"I see if the value is {string}");
+  RegExp get pattern => RegExp(r"I verify number display {string}");
 }
 
 class InitialStateOfApp extends GivenWithWorld<FlutterWorld> {
@@ -52,8 +52,7 @@ class InitialStateOfApp extends GivenWithWorld<FlutterWorld> {
   Future<void> executeStep() async {
     //Instantiate homepage with world.driver as parameter for flutter driver object
     HomePage homePage = HomePage(world.driver);
-
-    //expectMatch(await homePage.getCounterValue(), value);
+    // expectMatch(await homePage.getCounterValue());
   }
 
   @override
