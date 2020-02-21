@@ -11,7 +11,6 @@ ios/Runner/GeneratedPluginRegistrant.*
 
 build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt
 report.json
-.dart_tool/flutter_build/896308420696073591f412306d8e6e30/.filecache
 .dart_tool/flutter_build/896308420696073591f412306d8e6e30/app.dill
 build/flutter_driver_commands_0.log
 build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin
@@ -21,3 +20,5 @@ build/app/outputs/apk/app.apk
 build/app/outputs/apk/app.apk.sha1
 build/app/outputs/apk/debug/app-debug.apk
 .flutter-plugins-dependencies
+*/.filecache
+

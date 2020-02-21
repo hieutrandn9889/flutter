@@ -5,15 +5,16 @@ Feature: AddFeature
     And I click the plus button
     Then I verify number display "<verifyNumberDisplay>"
     Examples:
-      | verifyNumberDisplay | verifyTitlePage    |
-      | 1                   | HieuTran Home Page |
+      | verifyNumberDisplay |
+      | 1                   |
 
-# Scenario: Verify "add" button
-#   Given I verify title of page
-#   And I click the add button
-#   Then I verify alert displays
+  # Scenario: Verify clicking on "add" button
+  #   And I click the add button
+  #   Then I verify alert displays
 
-# Scenario: Verify "subtract" button
-#   Given I verify title of page
-#   And I click the subtract button
-#   Then I verify number displays is "-1"
+  Scenario Outline: Verify "subtract" button
+    And I click subtract button
+    Then I verify number display "<verifyNumberDisplay>"
+    Examples:
+      | verifyNumberDisplay |
+      | -1                  |

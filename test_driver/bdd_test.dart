@@ -17,8 +17,8 @@ Future<void> main() {
     ]// you can include "AttachScreenhotOnFailedStepHook()" to take a screenshot of each step failure and attach it to the world object
     ..stepDefinitions = [ 
       ClickPlus(), 
+      ClickSubtract(),
       VerifyNumberDisplay(), 
-      ClickSubtract()
     ]
     ..restartAppBetweenScenarios = true
     ..targetAppPath = "test_driver/bdd.dart"
