@@ -10,7 +10,7 @@ Feature: AddFeature
 
   Scenario Outline: Verify clicking on "add" button
     And I click the add button
-    Given I verify alert displays "<verifyAlertDisplay>"
+    Then I verify alert displays "<verifyAlertDisplay>"
     Examples:
       | verifyAlertDisplay             |
       | Welcome to ExecuteAutomation 0 |

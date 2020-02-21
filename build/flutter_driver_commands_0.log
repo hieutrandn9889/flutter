@@ -170,3 +170,7 @@
 2020-02-21 17:08:33.180410 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
 2020-02-21 17:08:33.449691 >>> {command: tap, finderType: ByValueKey, keyValueString: addBtn, keyValueType: String}
 2020-02-21 17:08:33.847816 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-02-21 17:25:15.096835 >>> {command: get_health}
+2020-02-21 17:25:15.140060 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2020-02-21 17:25:15.290505 >>> {command: tap, finderType: ByValueKey, keyValueString: addBtn, keyValueType: String}
+2020-02-21 17:25:16.743269 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
