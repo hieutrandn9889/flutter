@@ -23,8 +23,8 @@ class BasePage {
     await _driver.enterText(value);
   }
 
-  Future<void> verifyElements(elementFinder, time) async {
+  Future<void> waitForElements(elementFinder, time) async {
     await _driver.waitFor(elementFinder).timeout(time);
-    await _driver.getText(elementFinder);
   }
+
 }

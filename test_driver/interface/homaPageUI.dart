@@ -5,6 +5,6 @@ class HomePageUI {
   final btnIncrement  = find.byTooltip('Increment');
   final btnAdd        = find.byValueKey("add");
   final btnSubtract   = find.byValueKey("subtract");
-  final txtAlert      = find.byValueKey("alert_text");
-  final btnClose      = find.byValueKey("close_button");
+  final txtAlert      = find.byValueKey("alertText");
+  final btnClose      = find.byValueKey("closeButton");
 }

@@ -49,13 +49,13 @@ class _MyHomePageState extends State<MyHomePage> {
         return AlertDialog(
           title: new Text("Alert message !"),
           content: Text("Welcome to ExecuteAutomation " + _counter.toString(),
-              key: ValueKey("alert_text")),
+              key: ValueKey("alertText")),
           actions: <Widget>[
             // usually buttons at the bottom of the dialog
             new FlatButton(
               child: new Text(
                 "Close",
-                key: ValueKey("close_button"),
+                key: ValueKey("closeButton"),
               ),
               onPressed: () {
                 Navigator.of(context).pop();
