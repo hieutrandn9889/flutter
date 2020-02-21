@@ -24,7 +24,14 @@ class BasePage {
   }
 
   Future<void> waitForElements(elementFinder, time) async {
-    await _driver.waitFor(elementFinder).timeout(time);
+    await _driver.waitFor(find.text(elementFinder)).timeout(time);
   }
 
+  Future<void> close() async {
+    await _driver.close();
+  }
+
+  Future<void> scrollScreen(SerializableFinder finder, double dx, double dy, Duration duration) async {
+    await _driver.scroll(finder, dx, dy, duration);
+  }
 }

@@ -3,12 +3,11 @@ import '../common/basePage.dart';
 import '../interface/homaPageUI.dart';
 
 class HomePage extends BasePage {
-  
   FlutterDriver _driver;
   final homePageUI = new HomePageUI();
 
   //Constructor
-  HomePage(FlutterDriver driver) :super(driver) {
+  HomePage(FlutterDriver driver) : super(driver) {
     this._driver = driver;
   }
 
@@ -16,8 +15,16 @@ class HomePage extends BasePage {
     return this.getTextElements(homePageUI.txtCounter);
   }
 
+  Future<String> getAlertContent() async {
+    return this.getTextElements(homePageUI.txtAlert);
+  }
+
   Future<void> clickBtnPlus() async {
     return this.clickElements(homePageUI.btnIncrement);
+  }
+
+  Future<void> clickAddBtn() async {
+    return this.clickElements(homePageUI.btnAdd);
   }
 
   Future<void> clickSubtractButton() async {

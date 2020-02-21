@@ -21,7 +21,7 @@ A few resources used in this project project:
 - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 - [Flutter Driver: Flutter driver API](https://api.flutter.dev/flutter/flutter_driver/FlutterDriver-class.html)
 - [Flutter Gherkin: Gherkin + Runner for Flutter](https://pub.dev/packages/flutter_gherkin#-readme-tab-)
-
+- [API] (https://api.flutter.dev/flutter/flutter_driver/FlutterDriver/enterText.html)
 For help getting started with Flutter driver, view our 
 [ExecuteAutomation YouTube videos](https://www.youtube.com/executeautomation), which offers free tutorials, 
 samples, guidance on flutter driver along with BDD style coding practice.

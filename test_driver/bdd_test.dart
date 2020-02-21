@@ -18,7 +18,9 @@ Future<void> main() {
     ..stepDefinitions = [ 
       ClickPlus(), 
       ClickSubtract(),
+      ClickAddBtn(),
       VerifyNumberDisplay(), 
+      VerifyAlertDisplay(),
     ]
     ..restartAppBetweenScenarios = true
     ..targetAppPath = "test_driver/bdd.dart"

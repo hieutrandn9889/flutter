@@ -16,6 +16,20 @@ class ClickPlus extends AndWithWorld<FlutterWorld> {
   RegExp get pattern => RegExp(r"I click the plus button");
 }
 
+class ClickAddBtn extends AndWithWorld<FlutterWorld> {
+  ClickAddBtn()
+      : super(StepDefinitionConfiguration()..timeout = Duration(seconds: 10));
+
+  @override
+  Future<void> executeStep() async {
+    HomePage homePage = HomePage(world.driver);
+    await homePage.clickAddBtn();
+  }
+
+  @override
+  RegExp get pattern => RegExp(r"I click the add button");
+}
+
 class ClickSubtract extends AndWithWorld<FlutterWorld> {
   ClickSubtract()
       : super(StepDefinitionConfiguration()..timeout = Duration(seconds: 10));
@@ -42,6 +56,20 @@ class VerifyNumberDisplay extends Then1WithWorld<String, FlutterWorld> {
 
   @override
   RegExp get pattern => RegExp(r"I verify number display {string}");
+}
+
+class VerifyAlertDisplay extends Then1WithWorld<String, FlutterWorld> {
+  VerifyAlertDisplay()
+      : super(StepDefinitionConfiguration()..timeout = Duration(seconds: 10));
+
+  @override
+  Future<void> executeStep(String value) async {
+    HomePage homePage = HomePage(world.driver);
+    expectMatch(await homePage.getAlertContent(), value);
+  }
+
+  @override
+  RegExp get pattern => RegExp(r"I verify alert display {string}");
 }
 
 class InitialStateOfApp extends GivenWithWorld<FlutterWorld> {
