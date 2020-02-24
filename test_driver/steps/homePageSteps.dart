@@ -72,6 +72,23 @@ class VerifyAlertDisplay extends Then1WithWorld<String, FlutterWorld> {
   RegExp get pattern => RegExp(r"I verify alert display {string}");
 }
 
+class VerifyTitletDisplay extends Then1WithWorld<String, FlutterWorld> {
+  VerifyTitletDisplay()
+      : super(StepDefinitionConfiguration()..timeout = Duration(seconds: 10));
+
+  @override
+  Future<void> executeStep(String value) async {
+    HomePage homePage = HomePage(world.driver);
+    expectMatch(await homePage.getTitleContent(), value);
+  }
+
+  @override
+  RegExp get pattern => RegExp(r"I verify title display {string}");
+}
+
+
+
+
 class InitialStateOfApp extends GivenWithWorld<FlutterWorld> {
   InitialStateOfApp()
       : super(StepDefinitionConfiguration()..timeout = Duration(seconds: 10));

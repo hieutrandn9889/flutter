@@ -1,6 +1,7 @@
 import 'package:flutter_driver/flutter_driver.dart';
 
 class HomePageUI {
+  final txtTitle      = find.byValueKey('titleText');
   final txtCounter    = find.byValueKey('counterText');
   final btnIncrement  = find.byTooltip('Increment');
   final btnAdd        = find.byValueKey("addBtn");

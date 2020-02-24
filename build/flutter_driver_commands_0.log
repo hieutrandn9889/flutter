@@ -174,3 +174,39 @@
 2020-02-21 17:25:15.140060 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
 2020-02-21 17:25:15.290505 >>> {command: tap, finderType: ByValueKey, keyValueString: addBtn, keyValueType: String}
 2020-02-21 17:25:16.743269 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-02-24 09:12:07.304561 >>> {command: get_health}
+2020-02-24 09:12:07.328859 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2020-02-24 09:12:07.363936 >>> {command: tap, finderType: ByValueKey, keyValueString: addBtn, keyValueType: String}
+2020-02-24 09:12:07.497703 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-02-24 09:12:07.520398 >>> {command: get_text, finderType: ByValueKey, keyValueString: alertText, keyValueType: String}
+2020-02-24 09:12:07.759586 <<< {isError: false, response: {text: Welcome to ExecuteAutomation 0}, type: _extensionType, method: ext.flutter.driver}
+2020-02-24 09:14:01.676324 >>> {command: get_health}
+2020-02-24 09:14:01.702568 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2020-02-24 09:14:01.744044 >>> {command: tap, finderType: ByTooltipMessage, text: Increment}
+2020-02-24 09:14:01.876912 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-02-24 09:14:01.900125 >>> {command: get_text, finderType: ByValueKey, keyValueString: counterText, keyValueType: String}
+2020-02-24 09:14:02.213172 <<< {isError: false, response: {text: 1}, type: _extensionType, method: ext.flutter.driver}
+2020-02-24 09:21:34.657362 >>> {command: get_health}
+2020-02-24 09:21:34.701453 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2020-02-24 09:21:34.743453 >>> {command: get_text, finderType: ByValueKey, keyValueString: titleText, keyValueType: String}
+2020-02-24 09:21:34.809280 <<< {isError: true, response: Uncaught extension error while executing get_text: Unsupported operation: Type MaterialApp is currently not supported by getText
+#0      FlutterDriverExtension._getText (package:flutter_driver/src/extension/extension.dart:572:7)
+<asynchronous suspension>
+#1      FlutterDriverExtension.call (package:flutter_driver/src/extension/extension.dart:216:53)
+#2      BindingBase.registerServiceExtension.<anonymous closure> (package:flutter/src/foundation/binding.dart:522:32)
+<asynchronous suspension>
+#3      BindingBase.registerServiceExtension.<anonymous closure> (package:flutter/src/foundation/binding.dart)
+#4      _runExtension (dart:developer-patch/developer.dart:86:23)
+, type: _extensionType, method: ext.flutter.driver}
+2020-02-24 09:31:29.551991 >>> {command: get_health}
+2020-02-24 09:31:29.581081 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2020-02-24 09:31:29.621351 >>> {command: tap, finderType: ByTooltipMessage, text: Increment}
+2020-02-24 09:31:29.757252 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-02-24 09:31:29.855709 >>> {command: get_text, finderType: ByValueKey, keyValueString: counterText, keyValueType: String}
+2020-02-24 09:31:30.242353 <<< {isError: false, response: {text: 1}, type: _extensionType, method: ext.flutter.driver}
+2020-02-24 09:35:48.064066 >>> {command: get_health}
+2020-02-24 09:35:48.247907 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2020-02-24 09:35:48.391567 >>> {command: tap, finderType: ByTooltipMessage, text: Increment}
+2020-02-24 09:35:49.473423 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-02-24 09:35:49.500349 >>> {command: get_text, finderType: ByValueKey, keyValueString: counterText, keyValueType: String}
+2020-02-24 09:35:50.136363 <<< {isError: false, response: {text: 1}, type: _extensionType, method: ext.flutter.driver}

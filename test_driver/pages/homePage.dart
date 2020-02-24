@@ -19,6 +19,10 @@ class HomePage extends BasePage {
     return this.getTextElements(homePageUI.txtAlert);
   }
 
+  Future<String> getTitleContent() async {
+    return this.getTextElements(homePageUI.txtTitle);
+  }
+
   Future<void> clickBtnPlus() async {
     return this.clickElements(homePageUI.btnIncrement);
   }
